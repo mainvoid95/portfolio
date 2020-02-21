@@ -1,0 +1,99 @@
+*{
+  font-family: 'Noto Sans KR', ;
+  outline: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+
+}
+
+
+.title{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /* text-align: center; */
+  font-size: 3em;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.title_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:linear-gradient( 
+    rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url(./img/title_back.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: -50%;
+  width: 100%;
+}
+
+.title_text{
+  color: white;
+  position: absolute;
+  text-align: center;
+  text-shadow: black;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+header{
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  font-size: 1.3em;
+  display: flex;
+
+  color: white;
+}
+
+nav{
+  background-color: rgba(128, 128, 128, 0.5);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-radius: 0 0 0 10px; /* 왼쪽 아래 테두리만 둥근효과 주기 */
+}
+
+nav a{
+  padding: 10px;
+  margin: 10px;
+  
+  opacity: 1 !important;
+}
+
+footer{
+  text-align: center;
+}
+
+.profile{
+  position: relative;
+  padding: 30px;
+  height: 250px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.profile_left{
+  float: left;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 3em;
+}
+
+.profile_right{
+  font-size: 1.2em;
+  text-align: right;
+}
