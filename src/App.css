@@ -11,7 +11,8 @@ html, body {
 }
 
 .App{
-
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 
@@ -29,6 +30,7 @@ html, body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+
   background:linear-gradient( 
     rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
     url(./img/title_back.jpg);
@@ -36,7 +38,6 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   color: -50%;
-  width: 100%;
 }
 
 .title_text{
@@ -96,4 +97,30 @@ footer{
 .profile_right{
   font-size: 1.2em;
   text-align: right;
+}
+
+
+.project_cover{
+
+}
+
+.project{
+  padding: 100px;
+}
+
+.project_img{
+  height: 350px;
+  width: 350px;
+}
+
+
+.project_Title{
+
+}
+.project_description{
+
+}
+
+.github, .link_img{
+  width: 50px;
 }
