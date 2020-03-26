@@ -1,5 +1,5 @@
 import React from "react"
-import Github from '../img/github.png';
+import Github from '../img/GitHub.png';
 
 export default function footer(){
     return(

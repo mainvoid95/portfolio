@@ -1,6 +1,6 @@
 import React from "react";
 import mytoday_img from '../img/mytoday.png';
-import github from '../img/github.png';
+import github from '../img/GitHub.png';
 import link_img from '../img/link.png'
 
 export default function Projects(){
